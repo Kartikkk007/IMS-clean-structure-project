@@ -1,0 +1,45 @@
+﻿.inventory-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.inventory-title {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+    .inventory-table thead {
+        background-color: #4f46e5;
+        color: white;
+    }
+
+    .inventory-table th,
+    .inventory-table td {
+        padding: 14px 18px;
+        text-align: left;
+    }
+
+    .inventory-table tbody tr {
+        border-bottom: 1px solid #e5e7eb;
+        transition: background-color 0.2s ease;
+    }
+
+        .inventory-table tbody tr:hover {
+            background-color: #f5f7ff;
+        }
+
+    .inventory-table th {
+        font-weight: 600;
+    }
